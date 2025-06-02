@@ -1,5 +1,5 @@
 baseURL: "https://hugo-advance.netlify.app"
-title: Hugo Advance
+title: Halenza Consulting
 
 pagination:
   pagerSize: 8
@@ -9,8 +9,8 @@ pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
 metaDataFormat: yaml
-languageCode: en-us
-defaultContentLanguage: en
+languageCode: de
+defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
 
 params:
@@ -78,9 +78,6 @@ params:
 
   open_graph:
     og_type: "website"
-    og_twitter_card: "summary"
-    og_twitter_site: "@zerostaticio"
-    og_twitter_creator: "@zerostaticio"
 
   dark_mode:
     enable_dark_mode: true
@@ -89,7 +86,7 @@ params:
     show_dark_mode_toggle_in_mobile_menu: true
 
   cookie_banner:
-    enabled: true
+    enabled: false
     show_manage_cookies_at_bottom: true
 
   analytics:
@@ -105,12 +102,12 @@ params:
     commento:
       enabled: false # you must have a commento account and be on the correct domain. does not work locally.
     disqus:
-      shortname: "zerostatic" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
+      shortname: "" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
 
-  newsletter:
-    mailchimp:
-      form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
-      form_title: "Let's keep in touch"
+  #newsletter:
+  #  mailchimp:
+  #    form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
+  #    form_title: "Let's keep in touch"
 
   contact_form:
     use_netlify_form: false
@@ -119,8 +116,8 @@ params:
     netlify_form_name: "contact"
 
   multilingual:
-    enable_language_switcher: false
-    show_language_switcher_in_header: false
+    enable_language_switcher: true
+    show_language_switcher_in_header: true
 
   menu:
     show_dropdown_items_in_mobile_menu: false
@@ -129,7 +126,7 @@ params:
   footer:
     enable_footer: true
     enable_footer_info: true # will show the section with the logo, title and description.
-    footer_title: "Hugo Advance"
+    footer_title: "Halenza Consulting"
     footer_logo: ""
     footer_logo_height: "32px"
     footer_logo_width: "32px"
@@ -140,19 +137,51 @@ params:
     enable_menu_footer_primary: true
     enable_menu_footer_secondary: true
     enable_menu_footer_tertiary: true
-    footer_primary_menu_title: "Product"
-    footer_secondary_menu_title: "Company"
+    footer_primary_menu_title: "Produkte"
+    footer_secondary_menu_title: "Unternehmen"
     footer_tertiary_menu_title: "Support"
 
   bottom:
     enabled: true
     enable_bottom_menu: true
-    copyright_text: "© 2023 Zerostatic Themes"
-    show_rss_icon: true
+    copyright_text: "© 2025 Halenza Consulting GmbH"
+    show_rss_icon: false
 
 languages:
-  en:
+  de:
     weight: 0
+    languageName: Deutsch
+    contentDir: content/de
+    title: Halenza Consulting
+    params:
+      footer:
+        footer_primary_menu_title: Leistungen
+        footer_secondary_menu_title: Blog
+    menu:
+      main:
+        - name: "Leistungen"
+          identifier: leistungen
+          url: /leistungen/
+          weight: 1
+        - name: "Blog"
+          identifier: blog
+          url: /blog/
+          pageRef: posts
+          weight: 2
+        - name: "Über mich"
+          identifier: about
+          url: /about/
+          weight: 4
+      footer_primary:
+        - name: "Leistungen"
+          url: /leistungen/
+          weight: 1
+        - name: "xxxxx"
+          url: /work/
+          weight: 2
+  
+  en:
+    weight: 1
     languageName: English
     contentDir: content/en
     menu:
@@ -162,32 +191,21 @@ languages:
           url: /services/
           pageRef: services
           weight: 1
-        - name: "Branding"
+        - name: "ISMS ..."
           parent: "services"
-          url: "/services/branding"
+          url: "/services/isms-implementation"
           params:
             icon: "images/icons/icons8-color-palette-100.png"
-        - name: "Our Work"
-          identifier: work
-          url: /work/
-          pageRef: work
-          weight: 2
         - name: "Blog"
           identifier: blog
           url: /blog/
           pageRef: posts
-          weight: 3
+          weight: 2
         - name: "About"
           identifier: about
           url: /about/
           pageRef: about
-          weight: 4
-        - name: Buy Now
-          url: "https://www.zerostatic.io/theme/hugo-advance/"
-          weight: 10
-          params:
-            external: true
-            button: true
+          weight: 3
       footer_primary:
         - name: "Services"
           url: /services/
@@ -200,13 +218,6 @@ languages:
           url: /team/
           pageRef: "team"
           weight: 1
-      footer_tertiary:
-        - name: Buy Now
-          url: "https://www.zerostatic.io/theme/hugo-advance/"
-          weight: 1
-          params:
-            external: true
-            button: true
         - name: "Contact"
           url: /contact/
           weight: 2
@@ -222,49 +233,6 @@ languages:
         - name: "Privacy"
           url: /privacy/
           weight: 2
-
-  fr:
-    weight: 1
-    languageName: Français
-    contentDir: content/fr
-    title: Hugo Avance
-    params:
-      footer:
-        footer_primary_menu_title: Produit
-        footer_secondary_menu_title: Compagnie
-        footer_tertiary_menu_title: Support
-    menu:
-      main:
-        - name: "Prestations de service"
-          identifier: services
-          url: /services/
-          weight: 1
-        - name: "Notre Travail"
-          identifier: work
-          url: /work/
-          weight: 2
-        - name: "Blog"
-          identifier: blog
-          url: /blog/
-          weight: 3
-        - name: "À Propos"
-          identifier: about
-          url: /about/
-          weight: 4
-      footer_primary:
-        - name: "Services"
-          url: /services/
-          weight: 1
-        - name: "Work"
-          url: /work/
-          weight: 2
-      footer_tertiary:
-        - name: Buy Now
-          url: "https://www.zerostatic.io/theme/hugo-advance/"
-          weight: 10
-          params:
-            external: true
-            button: true
 
 permalinks:
   posts: "blog/:year/:month/:title/"

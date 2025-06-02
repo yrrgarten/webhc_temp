@@ -1,7 +1,7 @@
 ---
-title: "ISMS Consulting"
+title: "ISMS-Beratung"
 date: 2025-02-06
-description: "Information security for startups and mid-market companies. Remote or on-site – whatever works best for you."
+description: "Informationssicherheit für Startups und Mittelstand. Remote oder vor Ort – je nachdem, was passt."
 header_transparent: true
 hero:
   type: hero
@@ -19,8 +19,8 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   headings:
-    heading: Information Security for Startups and Mid-Market Companies
-    sub_heading: I help companies systematically build their IT security. With ISMS according to ISO 27001, NIS2 implementation, and AI compliance. Remote or on-site – whatever works best for you.
+    heading: Informationssicherheit für Startups und Mittelstand
+    sub_heading: Ich helfe Unternehmen dabei, ihre IT-Sicherheit systematisch aufzubauen. Mit ISMS nach ISO 27001, Umsetzung der NIS2-Anforderungen und KI-Compliance. Remote oder vor Ort – je nachdem, was passt.
     text: ''
     text_color: "#FFFFFF"
     text_color_dark: "#FFFFFF"
@@ -38,15 +38,15 @@ hero:
     alt: ""
   buttons:
     - button:
-      text: "Free Consultation"
-      url: "contact/"
+      text: "Kostenloses Erstgespräch"
+      url: "kontakt/"
       external: false
       fa_icon: false
       outline: true
       style: "transparent"
     - button:
-      text: "My Services"
-      url: "services/"
+      text: "Meine Leistungen"
+      url: "leistungen/"
       external: false
       show_external_icon: false
       fa_icon: false
@@ -63,12 +63,12 @@ intro:
   enabled: true
   align: left
   image: "images/photos/content/content-5.webp"
-  heading: "My Background"
-  description: "After 20 years in IT, including 7 years as COO of a German-American software startup, I know: compliance projects must be practical. I have successfully guided several companies through ISO 27001 certification – from startups to large enterprises."
+  heading: "Mein Hintergrund"
+  description: "Nach 20 Jahren im IT-Bereich, davon 7 Jahre als COO eines deutsch-amerikanischen Software-Startups, weiß ich: Compliance-Projekte müssen praktikabel sein. Ich habe bereits mehrere Unternehmen erfolgreich durch die ISO 27001-Zertifizierung begleitet – vom Startup bis zum Großunternehmen."
   buttons:
     - button:
-      text: "Learn More About Me"
-      url: "about/"
+      text: "Mehr über mich"
+      url: "ueber-mich/"
       external: false
       fa_icon: false
       outline: true
@@ -83,12 +83,12 @@ outro:
   enabled: true
   align: center
   image: ""
-  heading: Interested? Let's Talk
-  description: Free initial consultation – no commitment, direct communication.
+  heading: Interesse? Dann lass uns sprechen
+  description: Kostenloses Erstgespräch – unverbindlich und direkt.
   buttons:
     - button:
-      text: "Get in Touch"
-      url: "contact/"
+      text: "Kontakt aufnehmen"
+      url: "kontakt/"
       external: false
       fa_icon: false
       outline: false

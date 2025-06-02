@@ -1,54 +1,74 @@
 ---
-title: "About Us"
-date: 2018-11-28T15:15:34+10:00
+title: "About Me"
+date: 2025-02-06
 url: "about"
-
-description: "Business plan hackathon handshake responsive web design."
-image: "images/photos/content/content-6.webp"
+description: "20 years of IT experience, 7 years as COO of a software startup, and a passion for practical information security."
+image: "images/photos/content/about-large.webp"
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+# Practical Information Security – With a Business Perspective
 
-## Ne verba patulosque numen vix libet
+Hello, I'm Arne and I help companies systematically and practically build their information security.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+## My Journey
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+**20 years of IT experience** have shown me: the best security strategy is useless if it doesn't work in day-to-day operations. As **COO of a German-American software startup for 7 years**, I personally experienced the compliance challenges that growing companies face.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+This operational leadership experience sets me apart from many other consultants: I know the reality between business pressure, limited resources, and increasing compliance requirements from first-hand experience.
 
-## Postquam tamen
+## What Drives Me
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+I've always been fascinated by **IT, technology, and business**. This combination allows me to think through information security not just technically, but also from a business perspective.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+Compliance is not an end in itself – it must serve business success and be practically implementable.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+## My Qualifications
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+- **ISMS Security Officer according to ISO 27001**
+- **CCSK (Certificate of Cloud Security Knowledge) Version 4**
+- International experience through work in Germany and the USA
+- Track record: Successfully led several ISMS projects to certification
+
+## My Approach
+
+**Pragmatic instead of dogmatic** – Every company is different. Standards like ISO 27001 provide the framework, but the concrete implementation must fit your company culture and processes.
+
+**Results-oriented** – In the end, what matters is not perfect documentation, but that your information security actually works and is measurably improved.
+
+**Partnership-based** – I work with you, not for you. Your team should ultimately be able to work independently with the ISMS.
+
+## My Clients
+
+From **startups with 10 employees** to **companies with over 1 billion euros in revenue** – I have accompanied companies of various sizes in their ISMS projects.
+
+This range allows me to understand both the challenges of rapidly growing startups and the complexity of established mid-market companies.
+
+## International Perspective
+
+My experience in both German and American business environments gives me unique insights into:
+- **Cross-border compliance requirements** (GDPR, CCPA, SOX)
+- **Cultural differences** in security approaches
+- **International standards implementation**
+- **Global supply chain security**
+
+This international perspective is particularly valuable for:
+- German companies with US operations
+- American companies expanding to Europe
+- Startups targeting global markets
+- Companies dealing with cross-border data flows
+
+## Why Remote and On-Site?
+
+In today's world, much is possible remotely – workshops, reviews, document creation. At the same time, some things are simply more effective on-site: getting a feel for the company culture, team discussions, visiting the workplace.
+
+I find the right mix for each project.
+
+## My Mission
+
+Information security should not be a necessary evil, but an **enabler for secure growth**. If, after implementing your ISMS, you are not only compliant but also operationally better positioned, I have done my job right.
+
+The combination of German thoroughness and American pragmatism – that's what my international clients value most.
+
+---
+
+**Interested?** Let's find out in a free initial consultation how I can support you with your ISMS goals.

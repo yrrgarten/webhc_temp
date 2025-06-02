@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "css.validate": false,
   "less.validate": false,
@@ -41,13 +41,13 @@
   "[scss]": {
     "editor.tabSize": 2,
     "editor.codeActionsOnSave": {
-      "source.fixAll.stylelint": true
+      "source.fixAll.stylelint": "explicit"
     }
   },
   "[css]": {
     "editor.tabSize": 2,
     "editor.codeActionsOnSave": {
-      "source.fixAll.stylelint": true
+      "source.fixAll.stylelint": "explicit"
     }
   },
   "evenBetterToml.formatter.indentTables": true,
