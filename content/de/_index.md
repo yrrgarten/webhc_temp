@@ -53,7 +53,7 @@ hero:
       outline: true
       style: "transparent"
 
-services:
+leistungen:
   enabled: true
   show_view_all: true
   sort_by: "weight"

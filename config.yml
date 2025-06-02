@@ -160,8 +160,8 @@ languages:
     menu:
       main:
         - name: "Leistungen"
-          identifier: leistungen
-          url: /leistungen/
+          identifier: services
+          url: /services/
           weight: 1
         - name: "Blog"
           identifier: blog
@@ -174,7 +174,7 @@ languages:
           weight: 4
       footer_primary:
         - name: "Leistungen"
-          url: /leistungen/
+          url: /services/
           weight: 1
         - name: "xxxxx"
           url: /work/
